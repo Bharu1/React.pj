@@ -1,0 +1,49 @@
+.country-details {
+    padding: 20px;
+    padding-left: 150px; 
+    
+  }
+  
+  .back-button-container {
+    margin-bottom: 20px;
+    padding-left: 150px;
+  }
+  
+  .back-button {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #333;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+  
+  .country-details-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 40px;
+    align-items: start;
+    align-items: center; 
+    justify-content: center; 
+  }
+  
+  .country-details-flag-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .country-details-flag {
+    width: 600px; 
+    height: auto; 
+    border-radius: 8px; 
+  }
+  
+  
+  .country-info h2 {
+    margin-bottom: 10px;
+  }
+  
+  .country-info p {
+    margin: 5px 0;
+  }
+ 
